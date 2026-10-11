@@ -1,5 +1,5 @@
 from django.urls import path, include
-import views
+from pets import views
 
 app_name = "pets"
 urlpatterns = [

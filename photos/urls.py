@@ -1,5 +1,5 @@
 from django.urls import path, include
-import views
+from photos import views
 
 app_name = "photos"
 urlpatterns = [
